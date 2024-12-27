@@ -46,7 +46,8 @@ Solder wires to the following pins on the TYWE3L module:
 - **GND**
 - **GPIO00** (for enabling flash mode)
 
-Refer to the images for guidance.
+Refer to this images for soldering pins.
+
 ![undefined - Imgur](https://github.com/user-attachments/assets/c6386fd0-6396-46fd-8bc2-05c1d284b78a)
 
 ### 3. Prepare for Flashing
