@@ -7,7 +7,7 @@ The company behind the Smitch smart bulb has gone out of business, which caused 
 ## Components Required
 
 1. Smitch Smart Bulb (TYWE3L module-based). [mine](https://templates.blakadder.com/smitch_SB161001-B22.html)
-2. USB to TTL adapter (e.g., FTDI adapter) or as I have used the ESP32-WROOM-32 for serial flashing by connecting the "EN" pin to "GND."
+2. USB to TTL adapter (e.g., FTDI adapter) or as I have used the ESP32-WROOM-32 for serial flashing.
 3. Soldering tools and jumper wires
 4. Computer with a flashing tool (e.g., `esptool.py`) or web installer
 
