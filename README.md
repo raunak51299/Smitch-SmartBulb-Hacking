@@ -13,7 +13,7 @@ The company behind the Smitch smart bulb has gone out of business, which caused 
 
 ---
 
-## Pin Configuration
+## Pins
 
 | GPIO Pin | Function                                    |
 | -------- | ------------------------------------------- |
