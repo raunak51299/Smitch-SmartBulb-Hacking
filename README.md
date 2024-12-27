@@ -109,7 +109,7 @@ remember to connect the en pin to gnd to disable the onboard chip and to connect
      - **GPIO05** -> PWM4 (Warm White)
      - **GPIO13** -> PWM5 (Cold White)
 
-Refer to the "Hardware Setup" screenshot above.
+![image](https://github.com/user-attachments/assets/b9d26308-e3e6-41e6-9f4f-c0d98e66ed53)
 
 ---
 
