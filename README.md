@@ -6,7 +6,7 @@ The company behind the Smitch smart bulb has gone out of business, which caused 
 
 ## Components Required
 
-1. Smitch Smart Bulb (TYWE3L module-based)
+1. Smitch Smart Bulb (TYWE3L module-based). [mine](https://templates.blakadder.com/smitch_SB161001-B22.html)
 2. USB to TTL adapter (e.g., FTDI adapter) or as I have used the ESP32-WROOM-32 for serial flashing by connecting the "EN" pin to "GND."
 3. Soldering tools and jumper wires
 4. Computer with a flashing tool (e.g., `esptool.py`) or web installer
@@ -23,6 +23,9 @@ The company behind the Smitch smart bulb has gone out of business, which caused 
 | GPIO05   | PWM4 - Warm White                           |
 | GPIO13   | PWM5 - Cold White                           |
 | GPIO00   | Flash Mode (connect to GND during flashing) |
+![WhatsApp Image 2024-12-27 at 09 51 26_69269304](https://github.com/user-attachments/assets/f917176a-6f58-45f9-9a54-6d3a9b3e0b28)
+
+![tywe3l_pic2](https://github.com/user-attachments/assets/62210906-7b9d-443f-ae52-bee5df27fdb8)
 
 ---
 
@@ -43,6 +46,7 @@ Solder wires to the following pins on the TYWE3L module:
 - **GPIO00** (for enabling flash mode)
 
 Refer to the images for guidance.
+![undefined - Imgur](https://github.com/user-attachments/assets/c6386fd0-6396-46fd-8bc2-05c1d284b78a)
 
 ### 3. Prepare for Flashing
 
@@ -54,7 +58,10 @@ Refer to the images for guidance.
    - **GND** -> **GND** on the adapter
    - **GPIO00** -> **GND** (for flash mode)
 
-2. Connect the USB to TTL adapter to your computer.
+OR in my case due to unavailibility of adapter I used my nodemcu esp32-wroom-32 microcontroller instead
+remember to connect the en pin to gnd to disable the onboard chip and to connect  **TX** -> **TX** and  **RX** -> **RX**.
+![WhatsApp Image 2024-12-27 at 09 51 38_8d76b2d0](https://github.com/user-attachments/assets/fc3b3223-3887-48f8-8f7c-70c541ee8e81)
+
 
 ### 4. Flash WLED Firmware
 
