@@ -24,7 +24,8 @@ The company behind the Smitch smart bulb has gone out of business, which caused 
 | GPIO13   | PWM5 - Cold White                           |
 | GPIO00   | Flash Mode (connect to GND during flashing) |
 
-![WhatsApp Image 2024-12-27 at 09 51 26_69269304](https://github.com/user-attachments/assets/f917176a-6f58-45f9-9a54-6d3a9b3e0b28)
+![image](https://github.com/user-attachments/assets/8c298bfa-4df6-4619-8b88-a9c217428250)
+
 
 ![image](https://github.com/user-attachments/assets/72dbd71f-cc15-4369-ab7b-230ce75c2e49)
 
