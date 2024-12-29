@@ -45,7 +45,7 @@ Solder wires to the following pins on the TYWE3L module:
 - **RX**
 - **VCC (3.3V)**
 - **GND**
-- **GPIO00** (for enabling flash mode)
+- **GPIO00 -> gnd** (for enabling flash mode)
 
 Refer to this images for soldering pins.
 
