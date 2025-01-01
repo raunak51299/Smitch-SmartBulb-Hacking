@@ -64,7 +64,8 @@ Refer to this images for soldering pins.
 
 OR in my case due to unavailibility of adapter I used my nodemcu esp32-wroom-32 microcontroller instead
 remember to connect the en pin to gnd to disable the onboard chip and to connect  **TX** -> **TX** and  **RX** -> **RX**.
-![WhatsApp Image 2024-12-27 at 09 51 38_8d76b2d0](https://github.com/user-attachments/assets/fc3b3223-3887-48f8-8f7c-70c541ee8e81)
+![WhatsApp Image 2025-01-01 at 09 19 31_2fd78def](https://github.com/user-attachments/assets/98a41cf0-9d3e-44c4-a86a-64d1e2da38e4)
+
 
 
 ### 4. Flash WLED Firmware
