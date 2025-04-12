@@ -26,6 +26,7 @@ The company behind the Smitch smart bulb has gone out of business, which caused 
 
 ![image](https://github.com/user-attachments/assets/8c298bfa-4df6-4619-8b88-a9c217428250)
 
+![temp_image_20250412_000703_1ae801d6-9aca-4558-8d0f-3d33fd5b1823](https://github.com/user-attachments/assets/2de4e5a5-0510-4357-820e-92417bc3b2e7)
 
 ![image](https://github.com/user-attachments/assets/72dbd71f-cc15-4369-ab7b-230ce75c2e49)
 
