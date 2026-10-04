@@ -136,3 +136,26 @@ Happy Hacking!
 
 ![bmc_qr](https://github.com/user-attachments/assets/ff61b58f-3a43-465c-a755-916d5eb59542)
 
+---
+
+## Flashing Smitch SB161001 (B22) to Tasmota Without Opening the Bulb
+
+You can flash Tasmota Lite directly without opening the bulb or using a USB adapter.
+
+### Direct-to-Lite Steps
+
+1. **Download the firmware:** Get `tasmota-lite.bin.gz` from the [official Tasmota GitHub releases](https://github.com/arendst/Tasmota/releases).
+2. **Put the bulb in reset mode:** Turn it on and off five times at two-second intervals until it starts pulsing or blinking.
+3. **Connect to Wi-Fi:** Connect your PC to the bulb's Wi-Fi network, which usually appears as `Smitch_xxxx`.
+4. **Open the update page:** Navigate to [http://192.168.4.1:1336/update](http://192.168.4.1:1336/update).
+5. **Enter credentials** when prompted:
+   - **Username:** `admin`
+   - **Password:** `c21pdGNo`
+6. **Flash the file:** Upload the `tasmota-lite.bin.gz` file you downloaded.
+7. **Complete setup:** After the bulb restarts, connect to the new `tasmota-xxxx` Wi-Fi network and apply this template in **Configuration > Configure Other** to configure the colors:
+
+   ```json
+   {"NAME":"Smitch SB161001 - B22","GPIO":[0,0,0,0,416,419,0,0,417,420,418,0,0,0],"FLAG":0,"BASE":18}
+   ```
+
+Using the update page on port `1336` accesses the bulb's native bootloader. Flashing Lite directly keeps access to the Web UI and Console.
