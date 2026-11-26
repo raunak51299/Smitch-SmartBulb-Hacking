@@ -134,8 +134,6 @@ remember to connect the en pin to gnd to disable the onboard chip and to connect
 
 Happy Hacking!
 
-![bmc_qr](https://github.com/user-attachments/assets/ff61b58f-3a43-465c-a755-916d5eb59542)
-
 ---
 
 ## Flashing Smitch SB161001 (B22) to Tasmota Without Opening the Bulb
